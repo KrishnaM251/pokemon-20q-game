@@ -1,5 +1,4 @@
-    
-from random import randrange, choice    
+from random import randrange  
 
 #Welcome message function    
 def start_sequence():
@@ -13,7 +12,7 @@ def start_sequence():
     question_picker()
 
 #SQL code to build and ultimately return
-query_start = "USE Pokedex SELECT * FROM PokeTable2 "
+query_start = "SELECT * FROM \"FullTable\" "
 query = ""       
 
 #current question the game is asking
