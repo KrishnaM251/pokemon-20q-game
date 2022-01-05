@@ -45,7 +45,7 @@ class Note(BaseModel):
     text: str
     completed: bool
 
-app = FastAPI(title = "REST API using FastAPI PostgreSQL Async EndPoints")
+app = FastAPI(title = "20 Question Game, Pokemon Edition")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
