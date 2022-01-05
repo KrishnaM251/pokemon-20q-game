@@ -1,2 +1,2 @@
 # 20QGame
-# **Pokemon!!**
+# Pokemon!!
